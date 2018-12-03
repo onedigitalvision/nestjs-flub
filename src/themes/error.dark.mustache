@@ -471,6 +471,7 @@ pre[class*="language-"] {
       background: #121a27e3;
       padding: 100px 80px;
       box-sizing: border-box;
+      height:100vh;
     }
     .error-status {
       color: #afafaf;
@@ -644,17 +645,12 @@ pre[class*="language-"] {
 </head>
 <body>
   <section class="error-page">
-
+    
     <section class="error-stack">
-
+      <img width=48 src="https://bohassets.file.core.windows.net/assets/boh-logo.png?sp=rl&st=2018-11-08T16:20:10Z&se=2018-11-09T16:20:10Z&sv=2017-11-09&sig=2KKmPkHugDQ1fI%2F0%2FNz5sZG1c3nYWU36xUwgiMu6rgs%3D&sr=f"/>
       <h3 class="error-status">{{ status }}</h3>
       
       <div class="error-title">
-        {{#quote}}
-        <blockquote> {{ quote }} </blockquote>
-        {{/quote}}
-        <br/>
-        <h4 class="what-we-get"> Here's What we get</h4>
         <h4 class="error-name"> {{ name }} </h4>
         <h2 class="error-message"> {{ message }} </h2>
       </div>
